@@ -38,6 +38,39 @@ The AI Procurement Automation Platform is a comprehensive personal project demon
 
 ---
 
+## 🚀 Live Demo
+
+**Frontend Application:** https://frontend-vert-pi-84.vercel.app  
+**Backend API:** https://distinguished-eagerness-production-e898.up.railway.app
+
+**Login Credentials:**
+- Username: `admin`
+- Password: `admin123`
+
+### 📸 Screenshots
+
+<div align="center">
+  <h3>Application Screenshots</h3>
+  <p>Below are screenshots showcasing the key features of the platform:</p>
+</div>
+
+#### Login Page
+![Login Page](screenshots/login-page.png)
+
+#### Dashboard
+![Dashboard](screenshots/dashboard3.png)
+
+#### Vendor Management
+![Vendor Management](screenshots/vendor-management.png)
+
+#### Quotation Analysis
+![Quotation Analysis](screenshots/quotation-analysis.png)
+
+#### AI Vendor Recommendations
+![AI Vendor Recommendations](screenshots/ai-recommendations.png)
+
+---
+
 ## 🏗️ Architecture Overview
 
 ### System Architecture
