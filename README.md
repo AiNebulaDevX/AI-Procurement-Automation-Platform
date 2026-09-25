@@ -1087,22 +1087,6 @@ Follow Conventional Commits specification:
 
 ---
 
-## 📝 License & Legal
-
-### License
-
-**MIT License - Open Source Project**
-
-Copyright © 2024 AI Procurement Platform
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-**Note:** A formal LICENSE file will be added to the repository in future updates.
-
 ### Project Information
 
 This is a personal project developed to demonstrate enterprise-grade software architecture and AI capabilities in procurement automation. The project serves as:
@@ -1203,19 +1187,11 @@ This project is currently in development. Community features will be enabled whe
 - [ ] Performance optimization
 - [ ] Additional AI capabilities
 
-### Learning Goals
-This project serves as a learning platform for:
-- Enterprise architecture patterns
-- AI/ML integration in business applications
-- Microservices and containerization
-- Full-stack development best practices
-- Real-world problem solving
 
 ---
 
 <div align="center">
 
-**Built with ❤️ as a personal learning project demonstrating enterprise-grade capabilities**
 
 [🔝 Back to Top](#ai-procurement-automation-platform)
 
