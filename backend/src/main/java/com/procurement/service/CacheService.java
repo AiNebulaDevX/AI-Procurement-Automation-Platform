@@ -2,6 +2,7 @@ package com.procurement.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,7 @@ import java.util.Set;
 @Service
 @RequiredArgsConstructor
 @Slf4j
+@ConditionalOnBean(RedisTemplate.class)
 public class CacheService {
     
     private final RedisTemplate<String, Object> redisTemplate;

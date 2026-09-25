@@ -6,6 +6,7 @@ import com.procurement.kafka.events.PurchaseOrderCreatedEvent;
 import com.procurement.kafka.events.QuotationUploadedEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +15,7 @@ import java.util.UUID;
 @Service
 @RequiredArgsConstructor
 @Slf4j
+@ConditionalOnProperty(name = "spring.kafka.bootstrap-servers")
 public class KafkaProducerService {
     
     private final KafkaTemplate<String, String> kafkaTemplate;

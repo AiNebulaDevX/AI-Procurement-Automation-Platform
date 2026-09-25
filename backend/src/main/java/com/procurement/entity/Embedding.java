@@ -28,7 +28,7 @@ public class Embedding {
     @Column(nullable = false, columnDefinition = "TEXT")
     private String chunkText;
     
-    @Column(nullable = false, columnDefinition = "vector(1536)")
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String embedding;
     
     @JdbcTypeCode(SqlTypes.JSON)
